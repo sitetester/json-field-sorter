@@ -1,0 +1,34 @@
+# ==============================================================================
+# Compiled Binaries & Build Folders
+# ==============================================================================
+cmake-build-debug/
+cmake-build-release/
+/build/
+
+# Ignore compiled object files, libraries, and executables directly
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.exe
+*.out
+
+# ==============================================================================
+# CLion & JetBrains Internal Caches
+# ==============================================================================
+.idea/
+.clion.source.upload.cfg
+cmake-build-*/
+
+# ==============================================================================
+# Local Data & Generated Test Artifacts
+# ==============================================================================
+# Keep the directory structure but ignore generated outputs inside data
+data/out
+data/test_out_*
+
+# OS-specific clutter
+.DS_Store
+Thumbs.db
