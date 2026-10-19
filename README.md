@@ -77,26 +77,4 @@ Execute the compiled test binary from the project root to trigger the GoogleTest
 ```bash
 ./cmake-build-debug/test_token_sorter
 ```
-
-**Expected Console Output:**
-```text
-Running main() from /Users/x/CLionProjects/json-field-sorter/cmake-build-debug/_deps/googletest-src/googletest/src/gtest_main.cc
-[==========] Running 5 tests from 1 test suite.
-[----------] Global test environment set-up.
-[----------] 5 tests from TokenSorterTest
-[ RUN      ] TokenSorterTest.IsValidSortField
-[       OK ] TokenSorterTest.IsValidSortField (0 ms)
-[ RUN      ] TokenSorterTest.ParseLine
-[       OK ] TokenSorterTest.ParseLine (0 ms)
-[ RUN      ] TokenSorterTest.ParseLineEmpty
-[       OK ] TokenSorterTest.ParseLineEmpty (0 ms)
-[ RUN      ] TokenSorterTest.SortByName
-[       OK ] TokenSorterTest.SortByName (1 ms)
-[ RUN      ] TokenSorterTest.SortByAddress
-[       OK ] TokenSorterTest.SortByAddress (0 ms)
-[----------] 5 tests from TokenSorterTest (2 ms total)
-
-[----------] Global test environment tear-down
-[==========] 5 tests from 1 test suite ran. (2 ms total)
-[  PASSED  ] 5 tests.
-```
+![run_tests.png](screenshots/run_tests.png)
