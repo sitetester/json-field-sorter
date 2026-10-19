@@ -4,6 +4,7 @@
 #include <fstream>
 #include <sstream>
 #include <iostream>
+#include <vector>
 
 namespace {
 constexpr auto SORT_FIELD_NAME = "name";
